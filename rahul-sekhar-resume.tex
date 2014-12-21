@@ -1,0 +1,242 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% \usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0.22,0.45,0.7}     % hyperlinks setup
+\definecolor{light}{rgb}{0.5,0.5,0.5}     % hyperlinks setup
+% \AfterPreamble{\hypersetup{colorlinks,breaklinks,urlcolor=red, linkcolor=red}}
+
+% personal data
+\name{Rahul}{Sekhar}
+% \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{93, 30\textsuperscript{th} cross road}{Banashankari Stage 2}{Bangalore -- 560070, India}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 9916746045}                   % optional, remove / comment the line if not wanted
+% \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{sekhar.rahul@gmail.com}                               % optional, remove / comment the line if not wanted
+% \homepage{www.myname.webs.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{pic}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{As a programmer I find great satisfaction in seeing a problem tackled completely and elegantly. I involve myself whole heartedly in what I do and pride myself on my ability to pick up new tools and languages quickly.}
+
+\vspace{6pt}
+
+\section{Work Experience}
+
+\vspace{6pt}
+
+\small{I have worked as a freelance web developer since August 2011, collaborating with some incredible designers. Some of the projects I've completed:}
+
+\vspace{12pt}
+
+\cventry
+{\textcolor{light}{Ruby on Rails \\AngularJS}}
+{Nature Conservation Foundation}
+{}
+{\href{http://ncf-india.org}{\textcolor{linkcolour}{http://ncf-india.org}}}{}
+{The Nature Conservation Foundation (NCF) is an organisation with a complex internal structure. A comprehensive administration section to manage this structure and site content was created in addition to the public facing website.}
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{Wordpress}}
+{SHARAN}
+{}
+{\href{http://sharan-india.org}{\textcolor{linkcolour}{http://sharan-india.org}}}{}
+{A non-profit organisation with the goal of spreading awareness about holistic health and an ecologically sustainable compassionate lifestyle. Their website was redesigned to effectively display the wealth of information and resources they have, and allow users to easily register for events and consultations through a payment gateway.}
+
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{Ruby on Rails}}
+{Story Revolution}
+{}
+{\href{http://storyrevolution.in}{\textcolor{linkcolour}{http://storyrevolution.in}}}{}
+{An online children's book store for both used and new books. Includes an interface for users to browse through and buy books and an administration interface to manage books, orders and finances.}
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{Wordpress}}
+{Kaveri Trail Marathon}
+{}
+{\href{http://kaveritrailmarathon.com}{\textcolor{linkcolour}{http://kaveritrailmarathon.com}}}{}
+{An annual run along a tributary of the Kaveri river. The site is intended to showcase the beauty of the surrounding area and concisely give runners the information they need.}
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{Wordpress}}
+{Bangalore Ultra}
+{}
+{\href{http://bangaloreultra.com}{\textcolor{linkcolour}{http://bangaloreultra.com}}}{}
+{An ultramarathon event in Bangalore. The site has scrolling animations and transitions that form a story to immerse visitors.}
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{Ruby on Rails \\AngularJS}}
+{School Journal System}
+{}
+{}{}
+{An internal system for schools. It allows teachers, parents and students to easily communicate, keeps track of students academic progress and serves as a record of their work. Currently used by Shibumi, a school in Bangalore and Inwoods, a school in Hampshire, UK.}
+
+\vspace{8pt}
+
+\section{Technical skills}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Languages}}
+{Proficient in Ruby, Javascript, PHP. Some experience with Python, embedded C, shell scripting}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Frameworks}}
+{Significant experience with Rails, AngularJS, Wordpress}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Testing}}
+{Behaviour driven development and thorough unit and acceptance testing.}
+
+\vspace{6pt}
+
+\section{Other projects}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Education}}
+{Conducted a short workshop for children aged 13--15 at the Shibumi school. Introduced the children to the basics of programming and guided them in building their own obstacle avoiding robots using Arduinos.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Robotics}}
+{Authored and presented a paper at the 2012 IEEE International Conference on Emerging Signal Processing Applications (Las Vegas, USA), titled ``Inertial Sensor Based Wireless Control of a Robotic Arm'' based on a prototype constructed.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Electronics}}
+{Built an interactive poster on biodiversity for the Nature Conservation Foundation. The poster was displayed at the 2\textsuperscript{nd} Asia Regional Conference of the Society for Conservation Biology at IISc, Bangalore and is currently housed at the Mysore headquarters of NCF.}
+
+\vspace{6pt}
+
+
+\section{Education}
+
+\vspace{6pt}
+
+\cventry
+{\textcolor{light}{2007--2011}}
+{BMS College of Engineering}
+{Bangalore}
+{}
+{}
+{B.E. in Telecommunication Engineering -- First Class}
+
+\vspace{6pt}
+
+\cventry
+{\textcolor{light}{1995--2007}}
+{The Valley School}
+{Bangalore}
+{}
+{}
+{Indian School Certificate (ISC) -- First class}
+
+\vspace{6pt}
+
+\section{Interests and extra-curricular activity}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Music}}
+{A passionate guitarist, I play in a small band and am in the process of writing and recording material for our first album.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Hiking}}
+{I enjoy treks and have completed a basic mountaineering course at the Himalayan Mountaineering Institute, Darjeeling with an A grade.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Sport}}
+{A cyclist and runner, I've taken part in multiple runs and am currently training for my first half marathon.}
+
+\vspace{6pt}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
