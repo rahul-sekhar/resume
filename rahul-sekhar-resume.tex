@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % modern themes
 \moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.78]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -36,7 +36,7 @@
 \name{Rahul}{Sekhar}
 % \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 \address{93, 30\textsuperscript{th} cross road}{Banashankari Stage 2}{Bangalore -- 560070, India}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+91 9916746045}                   % optional, remove / comment the line if not wanted
+%\phone[mobile]{+91 9916746045}                   % optional, remove / comment the line if not wanted
 % \phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{sekhar.rahul@gmail.com}                               % optional, remove / comment the line if not wanted
@@ -62,50 +62,129 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\small{I find great satisfaction in seeing problems tackled completely and elegantly. I involve myself wholeheartedly in everything I do and pride myself on my ability to pick up concepts and techniques quickly.}
+\small{I take pride in my work and involve myself wholeheartedly in everything I do. Seeing a problem tackled completely, simply and elegantly gives me great satisfaction.}
+
+\vspace{10pt}
+
+\section{Skills}
 
 \vspace{6pt}
+
+\cvline
+{\textcolor{light}{Programming Languages}}
+{In-depth knowledge of Javascript, Ruby, HTML and CSS. Experience with SQL, Python, PHP and shell scripting.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Frameworks}}
+{In-depth experience with AngularJS, Rails and Wordpress. Experience with Node.js, BackboneJS and Umbraco. Currently learning React and experimenting with it in personal projects.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Process}}
+{A strong focus on organisation and maintainability. Programming is essentially management of complexity and I have worked on the skills needed to achieve this. 
+\endgraf
+\vspace{4pt}
+Modular, readable, documented code are priorities as well as an efficient development process with strong code conventions and continuous integration.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Methodology}}
+{Having worked with Agile Scrum and seen its benefits, I aim to further develop my knowledge and experience of Agile methodology.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Web}}
+{I make it a point to keep track of new developments and techniques in the constantly changing web world. I have experience with designing REST APIs, front end optimisation and responsiveness.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Testing}}
+{I believe automated testing is a necessity. Experience with BDD, TDD and unit and integration testing using Jasmine, RSpec, Cucumber and Selenium. }
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Tools}}
+{Experience with ES6, build processes with webpack, grunt and gulp, SASS and LESS, and GIT. Continuous integration with Jenkins and travis-ci. Setup and management of linux based servers.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Personal}}
+{I am straightforward and easy to get along with, and am able to convey ideas clearly without jargon. I have led and mentored a small team of developers.}
+
+\vspace{6pt}
+
+\cvline
+{\textcolor{light}{Languages}}
+{Fluent in English as my primary language. Conversational knowledge of Hindi and Spanish.}
+
+\vspace{10pt}
 
 \section{Work Experience}
 
 \vspace{6pt}
 
 \cventry
-{\textcolor{light}{2015--current}}
-{Member of Technical Staff}
+{\textcolor{light}{2016--current}}
+{Full Stack Developer}
+{}
+{Freelance}{}
+{I am currently working with an independent team on a six-month long website redesign project for ILFS, India. As the technical team within ILFS has worked exclusively with Microsoft technology, we're building the website using Umbraco (a CMS based on the ASP.NET framework, with an AngularJS based backend UI) to ease future maintenance.}
+
+\vspace{8pt}
+
+\cventry
+{\textcolor{light}{2015--2016}}
+{Lead Front End Developer}
 {}
 {Nutanix}{Bangalore}
-{I lead a team of front end developers at Nutanix, working on the interface for a number of technical tools, including sizing and quote generation for clusters, automated deployment and migration of workloads and healthcheck tools for clusters and migrated workloads. The company sets a great deal of importance on design and UX, and we ensure our interfaces are intuitive, clean, well designed and robust. My work here involves:
+{I led a team of front end developers at Nutanix within an excellent team of engineers. We worked on the interface for a number of technical tools including sizing and quote generation for clusters, automated deployment and migration of workloads and cluster healthchecks. My effort in improving the front end development process was greatly appreciated by the team. My work here involved:
 \vspace{6pt}
 \begin{itemize}
   \item Front end architectural decisions based on the requirements of each tool.
-  \item Using modern tools and workflows to ensure code is well written and tested yet flexible and quick to write.
   \item Agile, scrum based methodology with two-week sprints for each project.
-  \item Monitoring code quality across simultaneous projects.
-  \item Interfacing with designers, stakeholders and technical experts to produce an intuitive, useful and well designed product.
-  \item Working closely with the design team at the company headquarters in San Jose, USA. I travelled to San Jose to explore and kick-off a collaborative project with the team there.
+  \item Monitoring code quality across multiple simultaneous projects.
+  \item Robust and well designed interfaces as the company prioritised design and UX.
+  \item Interfacing with designers, stakeholders and technical experts on tool designs.
+\end{itemize}}
+
+\vspace{6pt}
+
+\cventry
+{}
+{}
+{}
+{}{}
+{\begin{itemize}
+  \item Working closely with the design team at the company headquarters in San Jose, USA. Travelled to San Jose to explore and kick-off a collaborative project with the team there.
   \item Refactoring and improving the workflow for legacy projects.
-  \item I introduced TDD as a development approach and converted an untested codebase to one with 100\% test coverage.
+  \item Introduced TDD as a development approach and converted an untested codebase to one with complete test coverage.
 \end{itemize}}
 
 \vspace{8pt}
 
 \cventry
 {\textcolor{light}{2012--2015}}
-{Web Architect}
+{Full Stack Developer}
 {}
 {Kairi Studios}{Bangalore}
-{At Kairi Studios I worked on webapps and sites for our clients from end to end -- technical design, development and deployment. While I worked with the full stack here, due to the nature of our projects my focus was on front-end development. We received a great deal of appreciation for our interfaces, and the maintainability and robustness of our output.
+{At Kairi Studios I worked on webapps and websites for our clients from end to end -- technical design, development and deployment. While I worked with the full stack here, due to the nature of our projects my focus was on front-end development. We received appreciation for our user-friendly interfaces, and the maintainability and robustness of our output.
 \endgraf
 \vspace{6pt}
-Some of our projects included a redesign and extensive administration interface for NCF India, an internal academics and journaling system for small schools, and and an online store for childrens books. My work at Kairi involved:
+Our projects included a redesign and extensive administration interface for NCF India, an internal academics and journaling system for small schools, and and an online store for childrens books. My work at Kairi involved:
 \vspace{6pt}
 \begin{itemize}
-  \item Architecture and tooling decisions based on client requirements.
-  \item Behaviour driven development, with user focused stories and thorough automated testing.
-  \item Projects that used AngularJS, Backbone, Ruby on Rails and Wordpress.
+  \item Architectural decisions based on client requirements.
+  \item Behaviour driven development, with user focused stories and automated testing.
+  \item Projects using AngularJS, Ruby on Rails and Wordpress.
   \item Responsive, mobile-friendly layouts.
-  \item Modern, creative and best practice based development.
   \item Documentation and maintenance of projects.
 \end{itemize}}
 
@@ -113,59 +192,12 @@ Some of our projects included a redesign and extensive administration interface 
 
 \cventry
 {\textcolor{light}{2011--2012}}
-{Web Developer}
+{Full Stack Developer}
 {}
 {Freelance}{}
-{I put together websites in collaboration with some very talented designers as a freelance developer. My focus was to find creative solutions to problems and write clean, maintainable code that followed best practices. I made it a point to explore new technologies, frameworks, tools and techniques in an effort to stay up-to-date and remain flexible in my infrastructure choices, which has served me well.}
+{I put together websites in collaboration with some very talented designers in my initial time as a freelance developer. I made it a point to explore new technologies, frameworks, tools and techniques in an effort to stay up-to-date and remain flexible in my infrastructure choices, which has served me well.}
 
-\vspace{6pt}
-
-\section{Skills}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Languages}}
-{In-depth knowledge of Javascript, Ruby, HTML and CSS. Experience with SQL, Python, PHP and shell scripting.}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Frameworks}}
-{In-depth experience with AngularJS, Rails and Wordpress. Experience with EmberJS, Backbone, Bootstrap, requireJS and AMD modules.}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Methodology}}
-{A strong focus on readable, modular, maintainable code. Experience with agile development. I aim to follow the SOLID OOP design priniciples when writing code and the 12 factor pattern when designing architecture. Code conventions and efficient development processes are a focus.}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Web}}
-{I make it a point to follow best practices and keep track of new developments and techniques. I have designed REST APIs, optimised webapps, worked with CDNs and mobile-friendly responsive layouts.}
-
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Tools}}
-{Source control with git. Build processes with grunt and gulp. SASS, LESS and Compass as precompilers. Automated deployment with capistrano and githooks.}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Testing}}
-{BDD, TDD and thorough unit and integration testing using Jasmine, RSpec, Cucumber and Selenium. I believe tested code is a necessity not a luxury.}
-
-\vspace{6pt}
-
-\cvline
-{\textcolor{light}{Personal}}
-{I have strong communication skills and am able to convey my ideas clearly and straightforwardly without jargon. I have lead a team and mentored developers, to produce quality code.}
-
-\vspace{6pt}
+\vspace{10pt}
 
 \section{Education}
 
@@ -189,27 +221,33 @@ Some of our projects included a redesign and extensive administration interface 
 {}
 {Indian School Certificate (ISC) -- First class}
 
+\vspace{10pt}
+
+\section{Other Interests}
+
 \vspace{6pt}
 
-\section{Interests and extra-curricular activity}
+\cvline
+{\textcolor{light}{Fitness}}
+{A hobby cyclist and runner, I've taken part in cycle tours and numerous runs. Physical fitness is a priority as I believe creativity and mental fitness stem from this base.}
 
 \vspace{6pt}
 
 \cvline
 {\textcolor{light}{Music}}
-{A passionate guitarist, I play in a small band and am in the process of writing and recording material for our first album. I have also been avidly involved in Tango dancing.}
+{A passionate guitarist, I play in an acoustic duo called Nothing Rhymed. I have also been avidly involved in Tango dancing.}
 
 \vspace{6pt}
 
 \cvline
 {\textcolor{light}{Hiking}}
-{I enjoy treks and have completed a basic mountaineering course at the Himalayan Mountaineering Institute, Darjeeling with an A grade.}
+{I enjoy treks and have completed a basic mountaineering course at the Himalayan Mountaineering Institute, Darjeeling.}
 
 \vspace{6pt}
 
 \cvline
-{\textcolor{light}{Sport}}
-{A cyclist and runner, I've taken part in cycle tours and numerous runs.}
+{\textcolor{light}{Electronics}}
+{I enjoy hobby electronics, and have worked on small projects using Arduinos.}
 
 \vspace{6pt}
 
